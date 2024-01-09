@@ -6,16 +6,16 @@ function App() {
 
   return (
     <>
-      <h1>Vite + React</h1>
-      <div>
+      <h1>React Handling Counters</h1>
+      <div className="buttons">
         <button onClick={() => setCount((prevCount) => prevCount + 1)}>
           Add
         </button>
         <button onClick={() => setCount((prevCount) => prevCount - 1)}>
           Subtract
         </button>
-        <p>Counter : {count}</p>
       </div>
+      <p>Counter : {count}</p>
     </>
   );
 }
