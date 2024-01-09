@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(193, 235, 193);
+}
+
 h1 {
   text-align: center;
   margin-bottom: 4rem;
