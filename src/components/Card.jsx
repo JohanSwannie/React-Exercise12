@@ -11,7 +11,7 @@ function Card() {
         />
         <div className="pt-6 text-center space-y-4">
           <blockquote>
-            <p className="text-lg font-medium mb-8">
+            <p className="text-xl font-medium mb-8">
               Tailwind CSS is an excellent framework.
             </p>
           </blockquote>
