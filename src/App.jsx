@@ -1,21 +1,28 @@
 import { useState } from "react";
-import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <h1>React Handling Counters</h1>
-      <div className="buttons">
-        <button onClick={() => setCount((prevCount) => prevCount + 1)}>
+      <h1 className="text-3xl text-center bg-green-500 p-3 mb-5">
+        React Handling Counters
+      </h1>
+      <div className="grid grid-cols-2 mx-auto w-fit gap-8">
+        <button
+          className="bg-blue-800 text-white p-3"
+          onClick={() => setCount((prevCount) => prevCount + 1)}
+        >
           Add
         </button>
-        <button onClick={() => setCount((prevCount) => prevCount - 1)}>
+        <button
+          className="bg-blue-800 text-white p-3"
+          onClick={() => setCount((prevCount) => prevCount - 1)}
+        >
           Subtract
         </button>
       </div>
-      <p>Counter : {count}</p>
+      <p className="text-center mt-3">Counter : {count}</p>
     </>
   );
 }
