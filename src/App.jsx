@@ -23,7 +23,9 @@ function App() {
           Subtract
         </button>
       </div>
-      <p className="text-center mt-3">Counter : {count}</p>
+      <p className="text-center mt-3 p-4 bg-red-800 text-white w-36 mx-auto rounded-full">
+        Counter : {count}
+      </p>
       <Card />
     </>
   );
