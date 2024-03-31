@@ -29,7 +29,7 @@ function App() {
           </p>
           <Card />
         </div>
-        <div className="grid grid-cols-3 mx-auto w-fit gap-8 mt-8">
+        <div className="grid grid-cols-3 mx-auto w-fit gap-20 mt-8">
           <button
             className="bg-red-800 text-white p-4 rounded-full"
             onClick={() => setBackgroundColor("red")}
